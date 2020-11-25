@@ -10,7 +10,7 @@
   background: linear-gradient(180deg, #F5FBFD 0%, rgba(245, 251, 253, 0) 100%);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1204px) {
   .content__bg {
     display: none;
   }

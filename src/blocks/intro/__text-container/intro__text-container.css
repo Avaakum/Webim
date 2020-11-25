@@ -1,11 +1,22 @@
 .intro__text-container {
-    padding-left: 7px;
+  padding-left: 7px;
+}
 
+@media screen and (min-width: 769px) and (max-width: 1204px) {
+  .intro__text-container {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1204px) {
+  .intro__text-container {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
-.intro__text-container {
-  padding: 50px 5% 0
+  .intro__text-container {
+    padding: 50px 5% 0
+  }
+}
 
-}
-}

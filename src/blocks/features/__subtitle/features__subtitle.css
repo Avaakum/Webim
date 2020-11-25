@@ -12,6 +12,13 @@
   margin-bottom: 68px;
 }
 
+@media screen and (max-width: 1204px) {
+  .features__subtitle {
+    width: auto;
+    max-width: 80%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .features__subtitle {
     width: auto;

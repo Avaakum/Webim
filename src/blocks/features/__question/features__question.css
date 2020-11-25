@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 768px) {
   .features__question {
-    padding: 22px 15px 30px;
-
+    padding: 22px 60px 30px 15px;
+    line-height: 30px;
+    font-size: 16px;
   }
 }

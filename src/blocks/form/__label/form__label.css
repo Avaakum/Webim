@@ -3,7 +3,7 @@
    margin-right: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1104px) {
   .form__label {
     display: block;
     margin-right: 0;

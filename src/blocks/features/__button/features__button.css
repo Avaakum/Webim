@@ -25,18 +25,17 @@
   color: #46B4D4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1204px) {
   .features__button {
     width: 100%;
-    padding-left: 0;
-    background-position: top 65px left 50%;
   }
 }
 
-@media screen and (max-width: 508px) {
+
+@media screen and (max-width: 768px) {
   .features__button {
-    width: 100%;
     padding-left: 0;
-    background-position: top 105px left 80%;
   }
 }
+
+

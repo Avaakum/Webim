@@ -7,25 +7,25 @@ const slider = () => {
   $('.partners__slider').slick({
     dots: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     speed: 300,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1051,
         settings: {
           slidesToShow: 3,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 751,
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 501,
         settings: {
           slidesToShow: 1,
         }

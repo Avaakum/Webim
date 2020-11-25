@@ -9,7 +9,7 @@
   margin-right: 3px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1204px) {
   .intro__video-image-bg {
     display: none;
     /* top: 0;

@@ -17,7 +17,7 @@
   color: #46B4D4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1154px) {
   .header__link {
     display: inline-block;
     margin: 15px auto;

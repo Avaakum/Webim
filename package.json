@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && webpack",
-    "dev2": "webpack serve --open 'Google Chrome' --watch",
     "dev": "webpack-dev-server --open --watch"
   },
   "author": "Nikita Zhmaev",

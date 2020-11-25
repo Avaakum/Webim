@@ -9,15 +9,11 @@
 }
 
 @media screen and (max-width: 768px) {
-.intro__video-image {
-  min-width: auto;
-  min-height: auto;
-  max-width: 95%;
-  margin: auto;
-  object-position: center;
-}
-
-
-
-
+  .intro__video-image {
+    min-width: auto;
+    min-height: auto;
+    max-width: 95%;
+    margin: auto;
+    object-position: center;
+  }
 }

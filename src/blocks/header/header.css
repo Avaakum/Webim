@@ -5,7 +5,7 @@
   font-family: 'Sunflower', Arial, sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1154px) {
   .header {
     max-width: 90%;
     flex-direction: column;

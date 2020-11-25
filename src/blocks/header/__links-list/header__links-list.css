@@ -7,14 +7,11 @@
   padding: 10px 0 0 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1154px) {
   .header__links-list {
     width: 80%;
     margin: 0;
     justify-content: space-between;
-
-    /* margin: -30px 0; */
-    /* flex-direction: column; */
   }
 }
 

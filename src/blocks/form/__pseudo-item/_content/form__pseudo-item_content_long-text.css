@@ -1,7 +1,13 @@
-@media screen and (max-width: 400px) {
+
+@media screen and (min-width: 769px) and (max-width: 785px) {
   .form__pseudo-item_content_long-text {
     display: inline-block;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .form__pseudo-item_content_long-text {
+    display: inline-block;
+  }
+}
 
