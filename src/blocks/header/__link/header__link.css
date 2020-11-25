@@ -26,7 +26,6 @@
 
 @media screen and (max-width: 500px) {
   .header__link {
-    display: inline-block;
     margin: 15px 30px;
   }
 }

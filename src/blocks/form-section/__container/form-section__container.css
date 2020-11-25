@@ -26,7 +26,5 @@
 @media screen and (max-width: 768px) {
   .form-section__container {
     flex-direction: column;
-    max-width: 90%;
-    padding: 30px;
   }
 }

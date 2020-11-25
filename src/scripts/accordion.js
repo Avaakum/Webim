@@ -11,7 +11,7 @@ const accordion = () => {
   }
 
   pageFeatures.addEventListener('click', e => {
-    let target = e.target;
+    const target = e.target;
 
     if (target && target.classList.contains('features__button') || target.classList.contains('features__question')) {
       for (let i = 0; i < openButton.length; i++) {
