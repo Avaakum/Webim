@@ -1,0 +1,13 @@
+.form__question {
+    margin: 31px 0 21px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #305F6D;
+}
+
+.form__question:first-of-type {
+  margin-top: 0;
+}

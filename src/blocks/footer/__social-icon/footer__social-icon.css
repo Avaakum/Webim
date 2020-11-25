@@ -1,0 +1,12 @@
+.footer__social-icon {
+   opacity: 0.5;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__social-icon:hover {
+  opacity: 0.8;
+}

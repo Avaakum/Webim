@@ -1,0 +1,7 @@
+@media screen and (max-width: 400px) {
+  .form__pseudo-item_content_long-text {
+    display: inline-block;
+  }
+}
+
+

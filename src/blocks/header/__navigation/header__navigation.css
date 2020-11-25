@@ -1,0 +1,7 @@
+@media screen and (max-width: 1024px) {
+  .header__navigation {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}

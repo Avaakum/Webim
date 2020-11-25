@@ -1,0 +1,23 @@
+.intro__video-image {
+  min-width: 511px;
+  min-height: 395px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  margin-right: 11px;
+}
+
+@media screen and (max-width: 768px) {
+.intro__video-image {
+  min-width: auto;
+  min-height: auto;
+  max-width: 95%;
+  margin: auto;
+  object-position: center;
+}
+
+
+
+
+}

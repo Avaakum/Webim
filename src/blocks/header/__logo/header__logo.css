@@ -1,0 +1,14 @@
+.header__logo {
+  background: url('../../../images/header/logo_webim_dark.svg') no-repeat;
+  width: 191px;
+  height: 45px;
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    align-self: center;
+    margin-bottom: 50px;
+  }
+}

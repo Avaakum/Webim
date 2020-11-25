@@ -1,0 +1,19 @@
+.functionality__title {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 26px;
+  /* identical to box height, or 93% */
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #8CA0A6;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .functionality__title {
+    margin-bottom: 70px;
+  }
+}

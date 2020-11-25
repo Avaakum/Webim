@@ -1,0 +1,24 @@
+.form__pseudo-item {
+  padding: 7px 20px;
+  border: 1px solid #D6E8F0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height, or 179% */
+  color: #8CA0A6;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__pseudo-item:hover {
+  color: #46b4d4;
+  box-shadow: 0px 27px 80px rgba(25, 141, 203, 0.07),
+    0px 6.0308px 17.869px rgba(25, 141, 203, 0.0417275),
+    0px 1.79553px 5.32008px rgba(25, 141, 203, 0.0282725);
+}

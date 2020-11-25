@@ -1,0 +1,11 @@
+.form-section__image {
+   width: 455.03px;
+   height: 462.67px;
+   margin-right: 63px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-section__image {
+    display: none;
+  }
+}

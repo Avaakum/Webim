@@ -1,0 +1,27 @@
+.header__links-list {
+  display: flex;
+  align-items: baseline;
+  list-style-type: none;
+  margin: 0 -35px;
+  /*Чтобы крайние элементы не получали лишний отступ*/
+  padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__links-list {
+    width: 80%;
+    margin: 0;
+    justify-content: space-between;
+
+    /* margin: -30px 0; */
+    /* flex-direction: column; */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__links-list {
+    width: 90%;
+    margin: -30px 0;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,24 @@
+.form__item {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+}
+
+.form__item:checked+.form__pseudo-item {
+  background: #22CBFF;
+  color: #ffffff;
+}
+
+/* .form__item:disabled+.form__pseudo-item {
+
+}
+
+.form__item:disabled:checked+.form__pseudo-item {
+
+}
+
+.form__item:focus+.form__pseudo-item {
+
+} */

@@ -1,0 +1,25 @@
+.intro__video-image-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 567px;
+  height: 538px;
+  background: url('../../../images/intro/intro__image-video-bg.png') no-repeat center;
+  z-index: -1;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__video-image-bg {
+    display: none;
+    /* top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    width: 90%;
+    height: auto;
+    padding-bottom: 100%;
+    margin-right: 0;
+    background-size: cover; */
+  }
+}

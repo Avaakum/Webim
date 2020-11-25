@@ -1,0 +1,12 @@
+.features__accordion {
+  max-width: 1104px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .features__accordio {
+    max-width: 90%;
+  }
+}

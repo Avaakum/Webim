@@ -1,0 +1,17 @@
+.features__answer {
+  margin: 0;
+  padding: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .features__answer {
+    max-width: 80%;
+    padding-top: 5px;
+  }
+}
+
+
+
+
+

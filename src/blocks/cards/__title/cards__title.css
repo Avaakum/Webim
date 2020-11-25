@@ -1,0 +1,11 @@
+.cards__title {
+  font-family: 'Sunflower', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 183px;
+  color: #305F6D;
+  margin: 0;
+}

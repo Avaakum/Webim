@@ -1,0 +1,22 @@
+.intro {
+  /* height: 100vh; */
+  min-height: 519px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /* для блока rotation */
+  background: url('../../images/intro/intro__map.svg') no-repeat center left/823px 457px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column-reverse;
+    height: auto;
+    background-position: center;
+  }
+}
+
+

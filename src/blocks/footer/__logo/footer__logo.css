@@ -1,0 +1,12 @@
+.footer__logo {
+   background: url('../../../images/footer/logo_webim_gray.svg');
+   width: 125px;
+   height: 29.17px;
+   max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+}

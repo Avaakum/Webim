@@ -1,0 +1,25 @@
+.features__question {
+  margin: 0;
+  padding-top: 22px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  /* or 190% */
+  letter-spacing: 0.025em;
+  /* color: #305F6D; */
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .features__question {
+    padding: 22px 15px 30px;
+
+  }
+}

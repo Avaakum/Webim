@@ -1,0 +1,9 @@
+.form-section {
+  display: flex;
+}
+
+/* @media screen and (max-width: 768px) {
+  .form-section {
+    display: none;
+  }
+} */

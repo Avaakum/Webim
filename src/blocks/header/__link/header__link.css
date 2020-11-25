@@ -1,0 +1,32 @@
+.header__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #305F6D;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 35px;
+}
+
+.header__link:hover {
+  color: #46B4D4;
+}
+
+@media screen and (max-width: 768px) {
+  .header__link {
+    display: inline-block;
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__link {
+    display: inline-block;
+    margin: 15px 30px;
+  }
+}

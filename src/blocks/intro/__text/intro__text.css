@@ -1,0 +1,13 @@
+.intro__text {
+    margin: 15px 0px 19px;
+    max-width: 398px;
+    width: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 0.025em;
+    color: #8CA0A6;
+}

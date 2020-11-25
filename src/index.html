@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webim</title>
+</head>
+
+<body class="page">
+  <div class="page__container">
+
+    <header class="header section page__header">
+      <a href="#" class="header__logo"></a>
+      <nav class="header__navigation">
+        <ul class="header__links-list">
+          <li><a href="#" class="header__link" target="_blank">Main</a></li>
+          <li><a href="#" class="header__link" target="_blank">Features</a></li>
+          <li><a href="#" class="header__link" target="_blank">Item</a></li>
+          <li><a href="#" class="header__link" target="_blank">Partners</a></li>
+          <li><a href="#" class="header__link" target="_blank">F.A.Q.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+
+      <div class="content__bg-container">
+        <div class="content__bg"></div>
+      </div>
+
+      <section class="intro section page__intro">
+        <div class="intro__text-container">
+          <h1 class="intro__title">Header</h1>
+          <p class="intro__text">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit
+            laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+          <a href="#" class="intro__video-link" target="_blank">Watch the video to find out more</a>
+        </div>
+        <picture>
+          <source media="(max-width: 1024px )" srcset="./images/intro/intro__image-video-1024.png">
+          <img src="./images/intro/intro__image-video.png" alt="Solar power system on nature background"
+            class="intro__video-image">
+        </picture>
+        <div class="intro__video-image-bg rotation"></div>
+      </section>
+
+      <section class="functionality section page__functionality">
+        <h2 class="functionality__title">Functionality and features</h2>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/functionality/cards__image-1.png" alt="Globe icon" class="cards__image">
+            <h3 class="cards__title">
+              Access data from over&nbsp;30,0000&nbsp;global stations
+            </h3>
+          </li>
+          <li class="cards__item">
+            <img src="./images/functionality/cards__image-2.png" alt="Data-server icon" class="cards__image">
+            <h3 class="cards__title">
+              Create your own library of data
+            </h3>
+          </li>
+          <li class="cards__item">
+            <img src="./images/functionality/cards__image-3.png" alt="Laptop icon" class="cards__image">
+            <h3 class="cards__title">
+              Analyse your data
+            </h3>
+          </li>
+          <li class="cards__item">
+            <img src="./images/functionality/cards__image-4.png" alt="GUI icon" class="cards__image">
+            <h3 class="cards__title">
+              Present your data
+            </h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="form-section section page__form-section">
+
+        <div class="form-section__container">
+
+          <img class="form-section__image" src="./images/form-section/form-section__image.png"
+            alt="2 people build a virtual puzzle">
+
+          <form action="#" class="form" method="POST" name="form">
+
+            <h2 class="form__title">
+              We want the best value for you:
+            </h2>
+
+            <p class="form__question">
+              1. Are you willing to spend money?
+            </p>
+
+            <label for="yes" class="form__label">
+              <input type="radio" id="yes" value="yes" name="money" class="form__item">
+              <span class="form__pseudo-item">Yes</span>
+            </label>
+
+            <label for="no" class="form__label">
+              <input type="radio" id="no" value="no" name="money" class="form__item">
+              <span class="form__pseudo-item">No</span>
+            </label>
+
+            <p class="form__question">
+              2. Who are you?
+            </p>
+
+            <label for="individual" class="form__label">
+              <input type="radio" id="individual" value="individual" name="who" class="form__item">
+              <span class="form__pseudo-item">Individual</span>
+            </label>
+
+            <label for="student" class="form__label">
+              <input type="radio" id="student" value="student" name="who" class="form__item">
+              <span class="form__pseudo-item">Student</span>
+            </label>
+
+            <label for="сompany-user" class="form__label">
+              <input type="radio" id="сompany-user" value="сompany-user" name="who" class="form__item">
+              <span class="form__pseudo-item">Company user</span>
+            </label>
+
+            <p class="form__question">
+              3. What sort of data are you working with?
+            </p>
+
+            <label for="meteorological" class="form__label">
+              <input type="radio" id="meteorological" value="meteorological" name="data" class="form__item">
+              <span class="form__pseudo-item">Meteorological</span>
+            </label>
+
+            <label for="other" class="form__label">
+              <input type="radio" id="other" value="other" name="data" class="form__item">
+              <span class="form__pseudo-item">Other</span>
+            </label>
+
+            <p class="form__question">
+              4. Wind Speed Data:
+            </p>
+
+            <label for="have" class="form__label">
+              <input type="radio" id="have" value="have" name="wind" class="form__item">
+              <span class="form__pseudo-item">I have my own</span>
+            </label>
+
+            <label for="want" class="form__label">
+              <input type="radio" id="want" value="want" name="wind" class="form__item">
+              <span class="form__pseudo-item form__pseudo-item_content_long-text">I want to find quality wind speed data</span>
+            </label>
+
+          </form>
+        </div>
+      </section>
+
+      <section class="partners section page__partners">
+        <h2 class="partners__title">Our partners</h2>
+        <div class="partners__slider">
+          <div>
+            <img src="./images/partners/logo_01.png" alt="Qube renewables logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_02.png" alt="aardvark logo logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_03.png" alt="Excellench logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_04.png" alt="EmphaSoft logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_01.png" alt="Qube renewables logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_02.png" alt="aardvark logo logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_03.png" alt="Excellench logo" class="partners__icon">
+          </div>
+          <div>
+            <img src="./images/partners/logo_04.png" alt="EmphaSoft logo" class="partners__icon">
+          </div>
+        </div>
+      </section>
+
+      <section class="features section">
+        <div class="page__features">
+          <h2 class="features__title">Our features</h2>
+          <p class="features__subtitle">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit
+            elit
+            laboris do exercitation
+            laborum sit elit incididunt aute fugiat consectetur. </p>
+          <ul class="features__accordion">
+            <li class="features__button">
+              <p class="features__question">Lorem irure fugiat cupidatat duis mollit commodo?</p>
+              <p class="animate__animated animate__faster features__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas non sit dolores. Repudiandae quisquam accusamus natus dignissimos asperiores, autem ipsum quae placeat tempora esse voluptatum saepe vitae illum possimus quibusdam vel dicta nemo molestias ducimus eligendi quasi. In deserunt dolores, nemo eius, reprehenderit nam nesciunt ut debitis nobis recusandae eveniet!</p>
+
+            </li>
+            <li class="features__button">
+              <p class="features__question">Commodo nisi aliqua proident consequat consequat?</p>
+              <p class="animate__animated animate__faster features__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas non sit dolores. Repudiandae quisquam accusamus natus dignissimos asperiores, autem ipsum quae placeat tempora esse voluptatum saepe vitae illum possimus quibusdam vel dicta nemo molestias ducimus eligendi quasi. In deserunt dolores, nemo eius, reprehenderit nam nesciunt ut debitis nobis recusandae eveniet!</p>
+
+            </li>
+            <li class="features__button">
+              <p class="features__question">Sunt veniam voluptate reprehenderit consectetur eiusmod quis?</p>
+              <p class="animate__animated animate__faster features__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas non sit dolores. Repudiandae quisquam accusamus natus dignissimos asperiores, autem ipsum quae placeat tempora esse voluptatum saepe vitae illum possimus quibusdam vel dicta nemo molestias ducimus eligendi quasi. In deserunt dolores, nemo eius, reprehenderit nam nesciunt ut debitis nobis recusandae eveniet!</p>
+
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer section">
+      <div class="page__footer">
+        <a href="#" class="footer__logo"></a>
+        <ul class="footer__social-links">
+          <li class="footer__list-item">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <img src="./images/footer/footer__facebook.svg" alt="Facebook logo" class="footer__social-icon">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+              <img src="./images/footer/footer__youtube.svg" alt="Youtube logo" class="footer__social-icon">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <img src="./images/footer/footer__instagram.svg" alt="Instagram logo" class="footer__social-icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.cards {
+  max-width: 1084px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-flow: row wrap;
+    max-width: 90%;
+    justify-content: space-evenly;
+  }
+}

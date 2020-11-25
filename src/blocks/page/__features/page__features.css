@@ -1,0 +1,13 @@
+.page__features {
+  padding: 70px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .page__features {
+    padding-bottom: 50px;
+    max-width: 90%;
+  }
+}
