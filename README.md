@@ -1,7 +1,5 @@
 #  Webim (en)
 
-## :thinking: Тестовое задание Emphasoft
-
 ### [Pages](https://avaakum.github.io/test-emphasoft/)
 
 ---
